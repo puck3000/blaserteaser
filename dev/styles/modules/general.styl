@@ -2,6 +2,25 @@ edit(blue)
 
 body
 	min-height: 100vh
+	
+img
+	max-width: 100%
 
-main
+#mainWrap
 	lost-center: 980px;
+	@media screen and (max-height: 800px)
+		lost-center: 700px;
+	
+header 
+	lost-column: 1/1;
+main
+	lost-utility: clearfix;
+
+section
+	lost-column: 1/1;
+	@media screen and (min-width: 35rem)
+		lost-column: 1/2;
+	
+footer
+	lost-column: 1/1
+	

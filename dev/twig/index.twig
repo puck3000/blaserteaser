@@ -6,14 +6,35 @@
 {% extends "layouts/_layout.twig" %}
 
 {% block content %}
-<main>
+<div id="mainWrap">
+{# header #}
 	{% include 'inc/header.twig' %}
-
-	<h1>Homewleksrdjf</h1>
-	<h2>Homepage Template</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam expedita nisi similique perspiciatis iure labore culpa, quaerat. Laudantium fugit nisi rerum nostrum, quam nam consequatur voluptates, rem, sunt veniam tempore.</p>
-	<a href="../news">news</a>
-
+{# main Content #}
+	<main>
+		<section id="NeuTeaser">
+			<img src="http://fillmurray.com/700/700" alt="Neu Gif">		
+		</section>
+		<section >
+			<p class="lead">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus eius cupiditate odit quis modi dolorum, nesciunt saepe atque neque quidem sit blanditiis dolorem numquam, maxime at a itaque molestias labore.
+			</p>
+			<div id="Countdown">
+				<p>Countdown</p>
+			</div>
+			<div id="accordeon">
+				<div id="newsletter">
+					<p>Newsletter Formular</p>					
+				</div>
+				<div id="links">
+					<p>links zu Startseite (evtl mehr?)</p>
+				</div>
+			</div>	<!-- end #accordeon -->
+		</section>
+	</main>
+{# footer #}
 	{% include 'inc/footer.twig' %}
-</main>
+
+</div><!-- end #mainWrap -->
+
+
 {% endblock %}
