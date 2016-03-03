@@ -30,6 +30,8 @@
 */
 
 /*!
+ * http://hilios.github.io/jQuery.countdown/
+ *
  * The Final Countdown for jQuery v2.1.0 (http://hilios.github.io/jQuery.countdown/)
  * Copyright (c) 2015 Edson Hilios
  * 

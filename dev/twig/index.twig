@@ -11,11 +11,11 @@
 	{% include 'inc/header.twig' %}
 {# main Content #}
 	<main>
-		<section id="NeuTeaser">
+		<section>
 			<img src="http://fillmurray.com/700/700" alt="Neu Gif">		
 		</section>
-		<section >
-			<p class="lead">
+		<section>
+			<p>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus eius cupiditate odit quis modi dolorum, nesciunt saepe atque neque quidem sit blanditiis dolorem numquam, maxime at a itaque molestias labore.
 			</p>
 			<div id="Countdown">
@@ -23,10 +23,16 @@
 			</div>
 			<div id="accordeon">
 				<div id="newsletter">
-					<p>Newsletter Formular</p>					
+					<a class="toggle" href="#newsletterForm">
+						<h3>Newsletter abonnieren</h3> <i>+</i>
+					</a>
+					<p id="newsletterForm" class="accordeonContent">Newsletter Formular</p>					
 				</div>
 				<div id="links">
-					<p>links zu Startseite (evtl mehr?)</p>
+					<a class="toggle" href="#startseite">
+						<h3>zur Startseite</h3> <i>-></i>
+					</a>
+					<p id="startseite" class="accordeonContent">links zu Startseite (evtl mehr?)</p>
 				</div>
 			</div>	<!-- end #accordeon -->
 		</section>
